@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          bigsherry&#39;s blog | 博客
+          压测概貌 - bigsherry&#39;s blog | 博客
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/">
+    <link rel="canonical" href="http://yoursite.com/2019/06/12/压测概貌/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -69,8 +69,8 @@
 <style type="text/css">
     header.intro-header{
         
-            background-image: url('/img/header_img/home-bg-2-dark.png') 
-            /*config*/
+            background-image: url('stress.jpg')
+            /*post*/
         
     }
     
@@ -87,10 +87,18 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 
-                    <div class="site-heading">
-                        <h1>bigsherry</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">致 敬 &quot; 裸 跑 &quot; 的 自 己 👊</span>
+                    <div class="post-heading">
+                        <div class="tags">
+                            
+                              <a class="tag" href="/tags/#测试" title="测试">测试</a>
+                            
+                        </div>
+                        <h1>压测概貌</h1>
+                        <h2 class="subheading"></h2>
+                        <span class="meta">
+                            Posted by bigsherry on
+                            2019-06-12
+                        </span>
                     </div>
                 
 
@@ -179,242 +187,169 @@
 
 
     <!-- Main Content -->
-    <!-- Main Content -->
-<div class="container">
-    <div class="row">
-        
+    <!-- Modify by Yu-Hsuan Yen -->
 
-<!-- USE SIDEBAR -->
-    <!-- Post Container -->
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
-            
-                <!-- Main Content -->
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                post-container">
 
-
-<div class="post-preview">
-
-    <a href="/2019/06/12/压测概貌/">
-        <h2 class="post-title">
-            压测概貌
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            发起压测的工具
-​	“压测工具我们主要有 Locust、jmeter、Apache ab”
-统计系统信息（的命令）
-​	统计CPU、内存、网络等系统信息。
-
-网络：netstat (network statistics)
-CPU：mpstat (MultiProcessor Statistics)、top
-内存：iostat (I/O statistics)、free、top
-程序队列：vm......
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by bigsherry on
-            2019-06-12
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#测试" title="测试">测试</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/2019/06/04/面试问之对互联网的发展怎么看/">
-        <h2 class="post-title">
-            如果有人问"对互联网的发展怎么看"
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            我觉得
-​	对于互联网，无论是网络这种基础设施，还是基于其上的软件，都是服务。
-​	所谓技术，都是为了追求用户体验，用户体验包括：响应时间、稳定性、安全性，界面我们不说，这是设计的事。
-...
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by bigsherry on
-            2019-06-04
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#面试" title="面试">面试</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-<div class="post-preview">
-
-    <a href="/2019/05/23/骐骥一跃-不能十步-驽马十驾-功在不舍/">
-        <h2 class="post-title">
-            骐骥一跃, 不能十步
-        </h2>
-        <h3 class="post-subtitle">
-            
-        </h3>
-        <div class="post-content-preview">
-            诞生灵感
-别人家的博客，好看、正式。
-
-诞生背景
-[可怕的上班时间] 虽然不知道做点什么，但总要做点什么。
-不断膨胀的list，总要去做。
-
-出生地
-中国、北京、软件园二号路
-
-...
-        </div>
-    </a>
-    
-        <p class="post-meta" style="margin: 10px 0;">
-            Posted by bigsherry on
-            2019-05-23
-        </p>
-        <div class="tags">
-            
-              <a href="/tags/#birth" title="birth">birth</a>
-            
-        </div>
-    
-
-</div>
-<hr>
-
-
-
-<!-- Pager -->
-
-<ul class="pager">
-    
-    
+                <h3><span id="发起压测的工具">发起压测的工具</span></h3>
+<p>​	“压测工具我们主要有 <strong>Locust</strong>、<strong>jmeter</strong>、<strong>Apache ab</strong>”</p>
+<h3><span id="统计系统信息的命令">统计系统信息（的命令）</span></h3>
+<p>​	统计CPU、内存、网络等系统信息。</p>
+<ul>
+<li>网络：netstat (network statistics)</li>
+<li>CPU：mpstat (MultiProcessor Statistics)、top</li>
+<li>内存：iostat (I/O statistics)、free、top</li>
+<li>程序队列：vmstat (Virtual Meomory Statistics) 的procs列</li>
 </ul>
+<h3><span id="java程序运行内部情况">Java程序运行内部情况</span></h3>
+<p>​	“通过 <strong>jstack</strong> 、<strong>jstat</strong> 之类的工具查看应用程序运行时的内部状态”</p>
+<h3><span id="转载自">转载自</span></h3>
+<p>​	<a href="https://www.cnblogs.com/wangiqngpei557/p/7953453.html" target="_blank" rel="noopener">https://www.cnblogs.com/wangiqngpei557/p/7953453.html</a></p>
 
+                
 
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    
+                    
+                        <li class="next">
+                            <a href="/2019/06/04/面试问之对互联网的发展怎么看/" data-toggle="tooltip" data-placement="top" title="如果有人问" 对互联网的发展怎么看"">Next Post &rarr;</a>
+                        </li>
+                    
+                </ul>
 
-                <!-- 如果开启评论功能 -->
+                <!-- duoshuo Share start -->
+                
+                <!-- 多说 Share end-->
+
+                <!-- 多说评论框 start -->
+                
+                <!-- 多说评论框 end -->
+
+                <!-- disqus comment start -->
+                
+                    <div class="comment">
+                        <div id="disqus_thread" class="disqus-thread"></div>
+                    </div>
+                
+                <!-- disqus comment end -->
+            </div>
+            
+            <!-- Tabe of Content -->
+            <!-- Table of Contents -->
+
+    
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">Contents</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">发起压测的工具</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">统计系统信息（的命令）</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">Java程序运行内部情况</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#undefined"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">转载自</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+                
+            <!-- Sidebar Container -->
+            <div class="
+                col-lg-8 col-lg-offset-2
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
+                <!-- Featured Tags -->
+                
+                <section>
+                    <!-- no hr -->
+                    <h5><a href="/tags/">FEATURED TAGS</a></h5>
+                    <div class="tags">
+                       
+                          <a class="tag" href="/tags/#测试" title="测试">测试</a>
+                        
+                    </div>
+                </section>
+                
+
+                <!-- Friends Blog -->
+                
+                <hr>
+                <h5>FRIENDS</h5>
+                <ul class="list-inline">
+
+                    
+                        <li><a href="https://blog.csdn.net/xerjava" target="_blank">CSDN</a></li>
+                    
+                </ul>
                 
             </div>
-
-          <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
-    
-        <!-- Featured Tags -->
-
-<section>
-    <!-- no hr -->
-    <h5><a href="/tags/">FEATURED TAGS</a></h5>
-    <div class="tags">
-        
-            
-        
-            
-        
-            
-        
+        </div>
     </div>
-</section>
+</article>
 
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-    <h5><a href="/about/">ABOUT ME</a></h5>
-    <div class="short-about">
 
-        
-            <img id="avatar_pic" src="/img/share.png">
-        
 
-        
-            <p>致 敬 &quot; 裸 跑 &quot; 的 自 己 👊</p>
-        
 
-        <!-- SNS Link -->
-        <ul class="list-inline">
-            
-            
-            
+<!-- disqus embedded js code start (one page only need to embed once) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "your-disqus-ID";
+    var disqus_identifier = "http://yoursite.com/2019/06/12/压测概貌/";
+    var disqus_url = "http://yoursite.com/2019/06/12/压测概貌/";
 
-            
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus embedded js code start end -->
 
-            
 
-            
-            
-            
-            
-        </ul>
-    </div>
-</section>
-        <hr>
-    
-        
-  <h5>RECENT POSTS
-  <div class="widget">
-    <ul>
-      
-        <li>
-          <a href="/2019/06/12/压测概貌/">压测概貌</a>
-        </li>
-      
-        <li>
-          <a href="/2019/06/04/面试问之对互联网的发展怎么看/">如果有人问&quot;对互联网的发展怎么看&quot;</a>
-        </li>
-      
-        <li>
-          <a href="/2019/05/23/骐骥一跃-不能十步-驽马十驾-功在不舍/">骐骥一跃, 不能十步</a>
-        </li>
-      
-    </ul>
-  </div>
-</h5>
-        <hr>
-    
-        <!-- Friends Blog -->
 
-<h5>FRIENDS</h5>
-<ul class="list-inline">
 
-    
-        <li><a href="https://blog.csdn.net/xerjava" target="_blank">CSDN</a></li>
-    
-</ul>
+<!-- async load function -->
+<script>
+    function async(u, c) {
+      var d = document, t = 'script',
+          o = d.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+      o.src = u;
+      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+      s.parentNode.insertBefore(o, s);
+    }
+</script>
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script>
+    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
+        anchors.options = {
+          visible: 'hover',
+          placement: 'left',
+          icon: '>'
+        };
+        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+    })
+</script>
+<style>
+    /* place left on bigger screen */
+    @media all and (min-width: 800px) {
+        .anchorjs-link{
+            position: absolute;
+            left: -0.75em;
+            font-size: 1.1em;
+            margin-top : -0.1em;
+        }
+    }
+</style>
 
-        <hr>
-    
-</div>
-
-        
-    </div>
-</div>
 
 
     <!-- Footer -->
