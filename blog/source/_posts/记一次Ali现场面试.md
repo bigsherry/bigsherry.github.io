@@ -4,9 +4,9 @@ catalog: true
 date: 2019-07-18 19:24:46
 subtitle:
 tags:
-- 经历
+- 面试
 catagories:
-- 经历
+- 面试
 ---
 
 1. 所谓的加班/下班晚，原来都是工程师们自己默默复盘，然后想通过工具的解决方案：happy work；道理我懂，差在第二点：
